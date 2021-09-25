@@ -28,7 +28,7 @@ int main(int argc, char **argv)
 
   if (client.call(srv))
   {
-    ROS_INFO("Area: %ld", srv.response.area);
+    ROS_INFO("Area: %6.4lf", srv.response.area);
   }
   else
   {

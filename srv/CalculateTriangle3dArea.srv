@@ -1,3 +1,4 @@
 Triangle3D triangle
 ---
-std_msgs/Float64 area
+float64 area
+    
